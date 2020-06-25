@@ -35,9 +35,12 @@ Also, they don't behave like headings, it doesn't make sense to encourage users 
 
 The formatting could be maintained without using a heading tag, and since the courses are sorted chronologically, subheadings could be used to, for example, group the courses by year. 
 
+There is a [GitHub issue (596)](https://github.com/apluslms/a-plus/issues/596)
+
 ### Profile
 
 The sequence of elements in the profile page does not match reading order. Looking at the page visually, the user might follow from the avatar, to the blue "info" block on the right which explains how to change it. 
 
 Following the DOM order, as a screen reader would, the user first passes the avatar, before continuing through the next fields, and then returns to the block explaining how to change their avatar.
 
+There is a [GitHub issue (590)](https://github.com/apluslms/a-plus/issues/590)

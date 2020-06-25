@@ -26,3 +26,5 @@ The course results page contains similar text for every exercise, for example:
 in context, it's visible that this is in the "Submissions" column, but when viewing the list of links, these are somewhat meaningless.
 
 As covered in the page "Links and Buttons", these don't perform the action of a "link", (they open a drop-down menu), so they needn't be visible on the list of links at all. 
+
+There is a [GitHub issue (597)](https://github.com/apluslms/a-plus/issues/597)

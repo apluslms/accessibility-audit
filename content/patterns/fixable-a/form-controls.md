@@ -32,6 +32,8 @@ The following are examples of the issues found.
 
 No visual indication is given if login fails. A clear error message and styling to match the error states of other text fields in the application would make this more understandable. 
 
+[GitHub issue (591)](https://github.com/apluslms/a-plus/issues/591)
+
 ### Submit a text-based exercise
 
 The form control used to type the input to an exercise is associated with a `label`, although the `label` only contains the question number, and no clear indication of what should be entered into the field.
@@ -39,6 +41,8 @@ The form control used to type the input to an exercise is associated with a `lab
 ### Profile
 
 There is no indication if updating the user's language suceeded or failed. Introducing an invalid value intentionally doesn't appear to cause an error condition.
+
+[GitHub issue (591)](https://github.com/apluslms/a-plus/issues/591)
 
 ### Submit a file upload exercise
 
