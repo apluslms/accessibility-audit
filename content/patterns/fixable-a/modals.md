@@ -23,7 +23,7 @@ Upon exiting the modal, either using ESC or the close button, focus is typically
 
 ## Suggestions
 
-1. Double-check all of these functions are best served by modal dialogs, rather than opening a new page
+1. Double-check all of these functions are best served by modal dialogs, rather than opening a new page. [GitHub issue #589](https://github.com/apluslms/a-plus/issues/589)
 2. Consider the action that opens the modal. A link may not be the most appropriate option here, as the user isn't being taken to a new page.
 3. Record the item the user activates when they open the modal, return focus there when they close it.
 4. Ensure keyboard users can only focus on the elements inside the visible modal, and can't interact with the background page while it is open. Take a look at the _proposed_ [`inert` attribute](https://github.com/WICG/inert).
