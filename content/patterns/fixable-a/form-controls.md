@@ -38,6 +38,8 @@ No visual indication is given if login fails. A clear error message and styling 
 
 The form control used to type the input to an exercise is associated with a `label`, although the `label` only contains the question number, and no clear indication of what should be entered into the field.
 
+[GitHub issue (592)](https://github.com/apluslms/a-plus/issues/592)
+
 ### Profile
 
 There is no indication if updating the user's language suceeded or failed. Introducing an invalid value intentionally doesn't appear to cause an error condition.
@@ -47,3 +49,5 @@ There is no indication if updating the user's language suceeded or failed. Intro
 ### Submit a file upload exercise
 
 This works correctly, however the label points to a field with a "non-unique id", so the correct label cannot be programatically determined.
+
+[GitHub issue (593)](https://github.com/apluslms/a-plus/issues/593)
