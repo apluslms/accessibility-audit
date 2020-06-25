@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>low on A&#43; Accessibility and Inclusive Design Audit</title>
+    <link>https://localhost:1313/tags/low/</link>
+    <description>Recent content in low on A&#43; Accessibility and Inclusive Design Audit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://localhost:1313/tags/low/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Page Titles</title>
+      <link>https://localhost:1313/patterns/fixable-a/page-titles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/page-titles/</guid>
+      <description>Requirements The requirements relating to the page titles are being met. All tested pages have descriptive, discernable names, with the most specific information first and the website name last.
+   2.4.1 Bypass Blocks (level A):    Possible Improvements Through testing, it became clear that the use of the | (pipe) character as a divider is annoying when using VoiceOver. Page titles are spoken as:
+ Results vertical line programming 2 vertical line a plus</description>
+    </item>
+    
+  </channel>
+</rss>

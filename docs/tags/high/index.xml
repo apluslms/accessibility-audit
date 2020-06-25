@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>high on A&#43; Accessibility and Inclusive Design Audit</title>
+    <link>https://localhost:1313/tags/high/</link>
+    <description>Recent content in high on A&#43; Accessibility and Inclusive Design Audit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://localhost:1313/tags/high/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Form Controls</title>
+      <link>https://localhost:1313/patterns/fixable-a/form-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/form-controls/</guid>
+      <description>As a web application, A+ depends on forms to take user input for a range of purposes. The following forms were examined in the tests carried out:
+ Log in (local users) Edit profile Create a group Submit an exercise requiring textual input Submit an exercise requiring a file upload  Requirements The following relevant requirements from WCAG were examined:
+   1.1.1 Non-text Content (level A):      1.</description>
+    </item>
+    
+    <item>
+      <title>Links and Buttons</title>
+      <link>https://localhost:1313/patterns/fixable-a/links-and-buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/links-and-buttons/</guid>
+      <description>Requirements One key requirement is that names, roles and values can be determined programmatically. The roles are most often deduced from HTML elements (so, for example, a &amp;lt;button&amp;gt; tag can safely be assumed to be a &amp;ldquo;button&amp;rdquo;).
+   4.1.2 Name, Role, Value (level A):    In several places, A+ used buttons and links in a different way to the expectation.
+Users typically expect that clicking a link takes the user to another page, and clicking a button performs an action.</description>
+    </item>
+    
+    <item>
+      <title>Semantic Markup and Sequences</title>
+      <link>https://localhost:1313/patterns/fixable-a/semantic-markup-and-sequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/semantic-markup-and-sequences/</guid>
+      <description>Semantic markup When users of screen readers navigate pages, some may rely on the structure of the document to move around. This may mean taking an &amp;ldquo;outline&amp;rdquo;, made up of the nested headings, or using landmarks, such as nav and main to jump around the web page.
+Luckily, these often don&amp;rsquo;t need defining explicitly, as many native HTML5 elements have an implied role. In some places, these could be easily swapped into the layout.</description>
+    </item>
+    
+  </channel>
+</rss>

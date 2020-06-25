@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wcag-aaa on A&#43; Accessibility and Inclusive Design Audit</title>
+    <link>https://localhost:1313/tags/wcag-aaa/</link>
+    <description>Recent content in wcag-aaa on A&#43; Accessibility and Inclusive Design Audit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://localhost:1313/tags/wcag-aaa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Link Purpose</title>
+      <link>https://localhost:1313/patterns/fixable-a/link-purpose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/link-purpose/</guid>
+      <description>Requirements Sometimes, assistive technology users will look at a list of links or headings from a web page. VoiceOver allows users to do this from the &amp;ldquo;rotor&amp;rdquo; while browsing the web.
+   2.4.4 Link Purpose (In Context) (level A):      2.4.9 Link Purpose (Link Only) (level AAA):    By ensuring the text is descriptive and unique, we enable users to quickly find what they are looking for.</description>
+    </item>
+    
+  </channel>
+</rss>

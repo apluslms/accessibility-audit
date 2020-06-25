@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://localhost:1313/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/scope/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/critical/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/print-version/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/form-controls/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/high/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/link-purpose/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/links-and-buttons/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/low/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/medium/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/modals/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/page-titles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/semantic-markup-and-sequences/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/fixable-a/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/wcag-a/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/a-audit-summary/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/wcag-aaa/</loc>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/patterns/changelog/</loc>
+  </url>
+  
+</urlset>

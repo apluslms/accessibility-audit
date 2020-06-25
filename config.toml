@@ -1,0 +1,14 @@
+languageCode = "en-us"
+title = "A+ Accessibility and Inclusive Design Audit"
+baseURL = "https://localhost:1313/"
+canonifyURLs = true
+theme = "cupper"
+publishDir = "docs"
+
+[params]
+  description = "The A+ accessibility and inclusive design audit report."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

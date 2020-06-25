@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A&#43; Accessibility and Inclusive Design Audit</title>
+    <link>https://localhost:1313/</link>
+    <description>Recent content on A&#43; Accessibility and Inclusive Design Audit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Audit Scope</title>
+      <link>https://localhost:1313/patterns/scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/scope/</guid>
+      <description>Pages The audit has been completed in *June 2020 using the master branch running locally. The following pages have been audited:
+ Front page Course archive Log in and you have logged out User profile  Additionally, using the course-template, the following pages have been audited:
+ Course index Course content Exercise results Submit an exercise both for exercises that require typed input and for file uploads View a submission  Technology At this stage, the amount of technology used for testing is quite narrow.</description>
+    </item>
+    
+    <item>
+      <title>Cupper</title>
+      <link>https://localhost:1313/print-version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/print-version/</guid>
+      <description>You don&amp;rsquo;t want to edit this file :-)</description>
+    </item>
+    
+    <item>
+      <title>Form Controls</title>
+      <link>https://localhost:1313/patterns/fixable-a/form-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/form-controls/</guid>
+      <description>As a web application, A+ depends on forms to take user input for a range of purposes. The following forms were examined in the tests carried out:
+ Log in (local users) Edit profile Create a group Submit an exercise requiring textual input Submit an exercise requiring a file upload  Requirements The following relevant requirements from WCAG were examined:
+   1.1.1 Non-text Content (level A):      1.</description>
+    </item>
+    
+    <item>
+      <title>Link Purpose</title>
+      <link>https://localhost:1313/patterns/fixable-a/link-purpose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/link-purpose/</guid>
+      <description>Requirements Sometimes, assistive technology users will look at a list of links or headings from a web page. VoiceOver allows users to do this from the &amp;ldquo;rotor&amp;rdquo; while browsing the web.
+   2.4.4 Link Purpose (In Context) (level A):      2.4.9 Link Purpose (Link Only) (level AAA):    By ensuring the text is descriptive and unique, we enable users to quickly find what they are looking for.</description>
+    </item>
+    
+    <item>
+      <title>Links and Buttons</title>
+      <link>https://localhost:1313/patterns/fixable-a/links-and-buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/links-and-buttons/</guid>
+      <description>Requirements One key requirement is that names, roles and values can be determined programmatically. The roles are most often deduced from HTML elements (so, for example, a &amp;lt;button&amp;gt; tag can safely be assumed to be a &amp;ldquo;button&amp;rdquo;).
+   4.1.2 Name, Role, Value (level A):    In several places, A+ used buttons and links in a different way to the expectation.
+Users typically expect that clicking a link takes the user to another page, and clicking a button performs an action.</description>
+    </item>
+    
+    <item>
+      <title>Modal Dialogs</title>
+      <link>https://localhost:1313/patterns/fixable-a/modals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/modals/</guid>
+      <description>The interface makes heavy use of modal dialogs, for example when a user submits an exercise, the grader results appear in a modal window and when a user views a previous submission, it opens in one. Sometimes, links from modals trigger other modals to open.
+Presently, these are not navigable to keyboard users and break the logical focus order. This causes failures in:
+   1.3.2 Meaningful Sequence (level A):      2.</description>
+    </item>
+    
+    <item>
+      <title>Page Titles</title>
+      <link>https://localhost:1313/patterns/fixable-a/page-titles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/page-titles/</guid>
+      <description>Requirements The requirements relating to the page titles are being met. All tested pages have descriptive, discernable names, with the most specific information first and the website name last.
+   2.4.1 Bypass Blocks (level A):    Possible Improvements Through testing, it became clear that the use of the | (pipe) character as a divider is annoying when using VoiceOver. Page titles are spoken as:
+ Results vertical line programming 2 vertical line a plus</description>
+    </item>
+    
+    <item>
+      <title>Semantic Markup and Sequences</title>
+      <link>https://localhost:1313/patterns/fixable-a/semantic-markup-and-sequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/fixable-a/semantic-markup-and-sequences/</guid>
+      <description>Semantic markup When users of screen readers navigate pages, some may rely on the structure of the document to move around. This may mean taking an &amp;ldquo;outline&amp;rdquo;, made up of the nested headings, or using landmarks, such as nav and main to jump around the web page.
+Luckily, these often don&amp;rsquo;t need defining explicitly, as many native HTML5 elements have an implied role. In some places, these could be easily swapped into the layout.</description>
+    </item>
+    
+    <item>
+      <title>WCAG-A Summary</title>
+      <link>https://localhost:1313/patterns/a-audit-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/a-audit-summary/</guid>
+      <description>Perceivable Text Alternatives    1.1.1 Non-text Content (level A):  All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below. (
+ Controls, Input: If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Guideline 4.1 for additional requirements for controls and content that accepts user input.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New?</title>
+      <link>https://localhost:1313/patterns/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/patterns/changelog/</guid>
+      <description>25 June 2020  Initial publication following an audit at WCAG-A level.  </description>
+    </item>
+    
+  </channel>
+</rss>
