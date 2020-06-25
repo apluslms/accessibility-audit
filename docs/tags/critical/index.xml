@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>critical on A&#43; Accessibility and Inclusive Design Audit</title>
-    <link>https://localhost:1313/tags/critical/</link>
+    <link>https://apluslms.github.io/accessibility-audit/tags/critical/</link>
     <description>Recent content in critical on A&#43; Accessibility and Inclusive Design Audit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-gb</language>
     
-	<atom:link href="https://localhost:1313/tags/critical/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://apluslms.github.io/accessibility-audit/tags/critical/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Modal Dialogs</title>
-      <link>https://localhost:1313/patterns/fixable-a/modals/</link>
+      <link>https://apluslms.github.io/accessibility-audit/patterns/fixable-a/modals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/patterns/fixable-a/modals/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/patterns/fixable-a/modals/</guid>
       <description>The interface makes heavy use of modal dialogs, for example when a user submits an exercise, the grader results appear in a modal window and when a user views a previous submission, it opens in one. Sometimes, links from modals trigger other modals to open.
 Presently, these are not navigable to keyboard users and break the logical focus order. This causes failures in:
    1.3.2 Meaningful Sequence (level A):      2.</description>

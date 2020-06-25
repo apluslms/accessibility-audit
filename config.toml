@@ -1,6 +1,6 @@
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "A+ Accessibility and Inclusive Design Audit"
-baseURL = "https://localhost:1313/"
+baseURL = "https://apluslms.github.io/accessibility-audit/"
 canonifyURLs = true
 theme = "cupper"
 publishDir = "docs"

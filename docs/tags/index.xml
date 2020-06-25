@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A&#43; Accessibility and Inclusive Design Audit</title>
-    <link>https://localhost:1313/tags/</link>
+    <link>https://apluslms.github.io/accessibility-audit/tags/</link>
     <description>Recent content in Tags on A&#43; Accessibility and Inclusive Design Audit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-gb</language>
     
-	<atom:link href="https://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://apluslms.github.io/accessibility-audit/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>critical</title>
-      <link>https://localhost:1313/tags/critical/</link>
+      <link>https://apluslms.github.io/accessibility-audit/tags/critical/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/tags/critical/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/tags/critical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>high</title>
-      <link>https://localhost:1313/tags/high/</link>
+      <link>https://apluslms.github.io/accessibility-audit/tags/high/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/tags/high/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/tags/high/</guid>
       <description></description>
     </item>
     
     <item>
       <title>low</title>
-      <link>https://localhost:1313/tags/low/</link>
+      <link>https://apluslms.github.io/accessibility-audit/tags/low/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/tags/low/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/tags/low/</guid>
       <description></description>
     </item>
     
     <item>
       <title>medium</title>
-      <link>https://localhost:1313/tags/medium/</link>
+      <link>https://apluslms.github.io/accessibility-audit/tags/medium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/tags/medium/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/tags/medium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wcag-a</title>
-      <link>https://localhost:1313/tags/wcag-a/</link>
+      <link>https://apluslms.github.io/accessibility-audit/tags/wcag-a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/tags/wcag-a/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/tags/wcag-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wcag-aaa</title>
-      <link>https://localhost:1313/tags/wcag-aaa/</link>
+      <link>https://apluslms.github.io/accessibility-audit/tags/wcag-aaa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/tags/wcag-aaa/</guid>
+      <guid>https://apluslms.github.io/accessibility-audit/tags/wcag-aaa/</guid>
       <description></description>
     </item>
     
