@@ -13,7 +13,7 @@ The interfaces examined don't use any live media or prerecorded video, so there 
 
 {{% wcag include="1.3.4" descriptions="true" %}}
 
-All pages work equally well in either mobile orientation, except the "Results" page, which is inaccessible on certain mobile screen sizes (tested using iPhone Simualtor) in portrait (notably, the smartphones available for testing were all bigger than this size).
+All pages work equally well in either mobile orientation, except the "Results" page, which is inaccessible on certain mobile screen sizes (tested using iPhone Simulator) in portrait (notably, the smartphones available for testing were all bigger than this size).
 
 {{% wcag include="1.3.5" descriptions="true" %}}
 
@@ -117,7 +117,7 @@ Forms don't always show error messages when fields are missed or in the incorrec
 
 No pages cause legal or financial consequences, however since submissions are finite and contribute to university grades, they may meet the definition of "testing".
 
-Submissions are not reversible. No mechanism to check values before submission are provided. No confirmation step is used. Any of these would meet the criteria. This has already been disucssed earlier in [GitHub issue #508](https://github.com/apluslms/a-plus/issues/508) and [MOOC-grader issue #56](https://github.com/apluslms/mooc-grader/issues/56). 
+Submissions are not reversible. No mechanism to check values before submission are provided. No confirmation step is used. Any of these would meet the criteria. This has already been discussed earlier in [GitHub issue #508](https://github.com/apluslms/a-plus/issues/508) and [MOOC-grader issue #56](https://github.com/apluslms/mooc-grader/issues/56). 
 
 ## Robust
 
