@@ -189,6 +189,15 @@
             </li>
           
             <li class="pattern">
+              <a href="#wcag-aa-summary" >
+                <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+                  <use xlink:href="#bookmark"></use>
+                </svg>
+                <span class="text">WCAG-AA Summary</span>
+              </a>
+            </li>
+          
+            <li class="pattern">
               <a href="#whats-new" >
                 <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
                   <use xlink:href="#bookmark"></use>
@@ -273,7 +282,7 @@
             Audit Scope
           </h1>
           <h2 id="pages">Pages</h2>
-<p>The audit has been completed in *<em>June 2020</em> using the <code>master</code> branch running locally. The following pages have been audited:</p>
+<p>The audit has been completed in <strong>June-July 2020</strong> using the <code>master</code> branch running locally. The following pages have been audited:</p>
 <ul>
 <li><strong>Front page</strong></li>
 <li><strong>Course archive</strong></li>
@@ -317,8 +326,7 @@ Tested using
 <p>Hopefully this gives a good enough indication of the general state of the interfaces. In the future, it would be desirable to test more deeply with a range of common assistive technologies.</p>
 <p>Many tests do not require assistive technology, these have been completed using Chrome on macOS.</p>
 <h2 id="target-level">Target level</h2>
-<p>So far, these tests relate to all guidelines of <strong>WCAG-A</strong>.</p>
-<p>It is the plan to extend this to include all guidelines within <strong>WCAG-AA</strong> during Summer 2020.</p>
+<p>So far, these tests relate to all guidelines of <strong>WCAG-A</strong> and <strong>WCAG-AA</strong>.</p>
 
         </div>
       
@@ -639,24 +647,425 @@ Tested using
 <h2 id="understandable">Understandable</h2>
 <h3 id="readable">Readable</h3>
 <ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#language-of-page">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.1.1 Language of Page</a> (level A):
+  </strong>
+<p>The default human language of each Web page can be programmatically determined.</p>
+  </li>
 </ul>
 <p>The language of the page is stated correctly.</p>
 <h3 id="predictable">Predictable</h3>
 <ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#on-focus">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.2.1 On Focus</a> (level A):
+  </strong>
+<p>When any component receives focus, it does not initiate a change of context.</p>
+  </li>
 </ul>
 <p>A focus state is implemented on <code>master</code>, but is not yet in production.</p>
 <h3 id="input-assistance">Input Assistance</h3>
 <ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#error-identification">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.3.1 Error Identification</a> (level A):
+  </strong>
+<p>If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.</p>
+  </li>
 </ul>
 <ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.3.2 Labels or Instructions</a> (level A):
+  </strong>
+<p>Labels or instructions are provided when content requires user input.</p>
+  </li>
 </ul>
 <p>Labels are not always present or visible. It is not possible to always ascertain the label visually or programatically.</p>
 <h2 id="robust">Robust</h2>
 <h3 id="compatible">Compatible</h3>
 <ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#parsing">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  4.1.1 Parsing</a> (level A):
+  </strong>
+<p>In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.</p>
+  </li>
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#name-role-value">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  4.1.2 Name, Role, Value</a> (level A):
+  </strong>
+<p>For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.</p>
+  </li>
 </ul>
 <p>HTML is generally valid, although some views include repeated IDs.</p>
 <p>Roles of <code>button</code> and <code>link</code> appear unpredictably and inconsistently. <a class="pattern-link" href="https://apluslms.github.io/accessibility-audit/patterns/fixable-a/links-and-buttons/"><svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false"> <use xlink:href="#bookmark"></use> </svg>Links and Buttons</a> explains more.</p>
+
+        </div>
+      
+        <div class="pattern-section">
+          <h1 id="wcag-aa-summary" tabindex="-1">
+            <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+              <use xlink:href="#bookmark"></use>
+            </svg>
+            WCAG-AA Summary
+          </h1>
+          <h2 id="perceivable">Perceivable</h2>
+<h3 id="time-based-media">Time-based Media</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#captions-live">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.2.4 Captions (Live)</a> (level AA):
+  </strong>
+<p>Captions are provided for all live audio content in synchronized media.</p>
+  </li>
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#audio-description-prerecorded">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.2.5 Audio Description (Prerecorded)</a> (level AA):
+  </strong>
+<p>Audio description is provided for all prerecorded video content in synchronized media.</p>
+  </li>
+</ul>
+<p>The interfaces examined don&rsquo;t use any live media or prerecorded video, so there is nothing to require captions or audio description.</p>
+<h3 id="adaptable">Adaptable</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#orientation">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.3.4 Orientation</a> (level AA):
+  </strong>
+<p>Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.</p>
+  </li>
+</ul>
+<p>All pages work equally well in either mobile orientation, except the &ldquo;Results&rdquo; page, which is inaccessible on certain mobile screen sizes (tested using iPhone Simualtor) in portrait (notably, the smartphones available for testing were all bigger than this size).</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.3.5 Identify Input Purpose</a> (level AA):
+  </strong>
+<p>The purpose of each input field collecting information about the user can be programmatically determined when:</p>
+  <ul>
+  <li><strong>The input field serves a purpose identified in the Input Purposes for User Interface Components section; and:</strong>
+  </li>
+  <li><strong>The content is implemented using technologies with support for identifying the expected meaning for form input data.:</strong>
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>No forms have <a href="https://www.w3.org/TR/html52/sec-forms.html#sec-autofill"><code>autocorrect</code> attributes</a>. This complies with the requirements except for;</p>
+<ul>
+<li><strong>Login</strong> - local user login should explicitly identify the <code>username</code> and <code>password</code> to enable assistive technology to autofill the fields.</li>
+<li><strong>Profile</strong> - the <code>language</code> field may benefit from identification.</li>
+</ul>
+<p>Further to this, it may be worth considering adding <code>autocomplete=&quot;off&quot;</code> to questionnaire forms, where accidental submission consumes available submissions from a limited pool.</p>
+<h3 id="distinguishable">Distinguishable</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.3 Contrast (Minimum)</a> (level AA):
+  </strong>
+<p>The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:</p>
+  <ul>
+  <li><strong>Large Text:</strong>
+  Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
+  </li>
+  <li><strong>Incidental:</strong>
+  Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
+  </li>
+  <li><strong>Logotypes:</strong>
+  Text that is part of a logo or brand name has no minimum contrast requirement.
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>There are many elements with too low colour contrast. The footer, which is visible on every page is one of these, as well as many of the badges, buttons and alerts.</p>
+<p>Most of these are unstyled Bootstrap components, so it may make sense to re-assess this once there is a new Bootstrap theme in place, to find which need addressing once the theme colours are eliminated.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#resize-text">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.4 Resize text</a> (level AA):
+  </strong>
+<p>Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.</p>
+  </li>
+</ul>
+<p>Adjusting the text size independently of the page zoom does not work.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#images-of-text">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.5 Images of Text</a> (level AA):
+  </strong>
+<p>If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:</p>
+  <ul>
+  <li><strong>Customizable:</strong>
+  The image of text can be visually customized to the user&#39;s requirements;
+  </li>
+  <li><strong>Essential:</strong>
+  A particular presentation of text is essential to the information being conveyed.
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>No images of text could be found.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#reflow">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.10 Reflow</a> (level AA):
+  </strong>
+<p>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
+  <ul>
+  <li><strong>Vertical scrolling content at a width equivalent to 320 CSS pixels;:</strong>
+  </li>
+  <li><strong>Horizontal scrolling content at a height equivalent to 256 CSS pixels.:</strong>
+  </li>
+  <li><strong>Except for parts of the content which require two-dimensional layout for usage or meaning.:</strong>
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>The responsive design means that reflow works as intended up to 400% (also tested at 500%). The only exception is the table on the course results page, which overflows horizontally.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.11 Non-text Contrast</a> (level AA):
+  </strong>
+<p>The visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):</p>
+  <ul>
+  <li><strong>User Interface Components:</strong>
+  Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;
+  </li>
+  <li><strong>Graphical Objects:</strong>
+  Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>Most pages met the &ldquo;non-text contrast&rdquo; requirement. The elements that did not were;</p>
+<ul>
+<li><code>input</code> text fields, which have too low a border colour (this can likely be addressed with the Bootstrap theme)</li>
+<li>Classes <code>.badge</code> and <code>.label</code> do not always have sufficient contrast against their background.</li>
+</ul>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#text-spacing">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.12 Text Spacing</a> (level AA):
+  </strong>
+<p>In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>
+  <ul>
+  <li><strong>Line height (line spacing) to at least 1.5 times the font size;:</strong>
+  </li>
+  <li><strong>Spacing following paragraphs to at least 2 times the font size;:</strong>
+  </li>
+  <li><strong>Letter spacing (tracking) to at least 0.12 times the font size;:</strong>
+  </li>
+  <li><strong>Word spacing to at least 0.16 times the font size.:</strong>
+  </li>
+  <li><strong>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.:</strong>
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>Adjusting text spacing works corretly (this was tested using the <a href="https://codepen.io/stevef/full/YLMqbo">text spacing bookmarklet</a>). The only exception was the <code>&lt;dl&gt;</code> at the top of course content pages (tested using <code>course-template</code>), which caused some horizontal overflow.</p>
+<p>This was also tested with the front page from the current <code>master</code> branch - note that the previous implementation failed.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  1.4.13 Content on Hover or Focus</a> (level AA):
+  </strong>
+<p>Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
+  <ul>
+  <li><strong>Dismissable:</strong>
+  A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;
+  </li>
+  <li><strong>Hoverable:</strong>
+  If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;
+  </li>
+  <li><strong>Persistent:</strong>
+  The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.
+  </li>
+  <li><strong>Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.:</strong>
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>Very few cases of content (like tooltips) appearing on hover were found in the pages sampled. Those that were found always had an element of reduncancy, although they did not meet these requirements (usually as they were not hoverable).</p>
+<h2 id="operable">Operable</h2>
+<h3 id="navigable">Navigable</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  2.4.5 Multiple Ways</a> (level AA):
+  </strong>
+<p>More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.</p>
+  </li>
+</ul>
+<p>Generally, if we consider courses to be &ldquo;subsites&rdquo;, these criteria are basically met. It&rsquo;s possible to navigate course pages either;</p>
+<ul>
+<li>From a &ldquo;contents&rdquo; list of chapters and pages</li>
+<li>From a list of point-bearing exercises, grouped by page</li>
+<li>Using &ldquo;back&rdquo; and &ldquo;next&rdquo; links within the pages.</li>
+</ul>
+<p>It&rsquo;s always possible to reach the front page and other key pages, and the menu of the user&rsquo;s own courses provides quick links to the pages the user is most likely to want to access.</p>
+<p>Navigation within courses, and jumping from one course to another is provided in at least two ways.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  2.4.6 Headings and Labels</a> (level AA):
+  </strong>
+<p>Headings and labels describe topic or purpose.</p>
+  </li>
+</ul>
+<p>Throughout all pages, except &ldquo;log out&rdquo; and the front page, there are mismatched heading levels. These can be examined most easily in WAVE, and should create a logical, nexted tree structure.</p>
+<h2 id="understandable">Understandable</h2>
+<h3 id="readable">Readable</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#language-of-parts">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.1.2 Language of Parts</a> (level AA):
+  </strong>
+<p>The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.</p>
+  </li>
+</ul>
+<p>The version of the front page on <code>master</code> is the only part where the language of parts is correctly identified. The same technique should be applied to the course archive page. Additionally, the language names are present in the profile page.</p>
+<p>No other pages use multiple languages which are visible simeltaneously  (some courses do, but specific courses were out of scope for this review).</p>
+<h3 id="predictable">Predictable</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#consistent-navigation">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.2.3 Consistent Navigation</a> (level AA):
+  </strong>
+<p>Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.</p>
+  </li>
+</ul>
+<p>The navigation is present in the same location on every page.</p>
+<p>The only element which is unpredictable is the menu which allows users to choose a group to submit with, as it is related to the course, but appears in the main navigation area, and may appear differently in different courses.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#consistent-identification">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.2.4 Consistent Identification</a> (level AA):
+  </strong>
+<p>Components that have the same functionality within a set of Web pages are identified consistently.</p>
+  </li>
+</ul>
+<p>Most elements can be identified consistently. Issues have been identified in the previous audit about the use of <a class="pattern-link" href="https://apluslms.github.io/accessibility-audit/patterns/fixable-a/links-and-buttons/"><svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false"> <use xlink:href="#bookmark"></use> </svg>Links and Buttons</a> .</p>
+<p>An important note here is that teachers are free to override the CSS within courses. This allows individual courses to use inconsistent identification for elements, and is outside of the scope of this audit. It may be worth producing documentation for teachers covering the importance of not overriding some of the default styles, or to consider limiting the effect of teacher styles to only the content area.</p>
+<h3 id="input-assistance">Input Assistance</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#error-suggestion">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.3.3 Error Suggestion</a> (level AA):
+  </strong>
+<p>If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.</p>
+  </li>
+</ul>
+<p>Forms don&rsquo;t always show error messages when fields are missed or in the incorrect format. Those that do may have unclear error messages.</p>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.3.4 Error Prevention (Legal, Financial, Data)</a> (level AA):
+  </strong>
+<p>For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:</p>
+  <ul>
+  <li><strong>Reversible:</strong>
+  Submissions are reversible.
+  </li>
+  <li><strong>Checked:</strong>
+  Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
+  </li>
+  <li><strong>Confirmed:</strong>
+  A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+  </li>
+  </ul>
+  </li>
+</ul>
+<p>No pages cause legal or financial consequences, however since submissions are finite and contribute to university grades, they may meet the definition of &ldquo;testing&rdquo;.</p>
+<p>Submissions are not reversible. No mechanism to check values before submission are provided. No confirmation step is used. Any of these would meet the criteria. This has already been disucssed earlier in <a href="https://github.com/apluslms/a-plus/issues/508">GitHub issue #508</a> and <a href="https://github.com/apluslms/mooc-grader/issues/56">MOOC-grader issue #56</a>.</p>
+<h2 id="robust">Robust</h2>
+<h3 id="compatible">Compatible</h3>
+<ul class="wcag with-desc">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#status-messages">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  4.1.3 Status Messages</a> (level AA):
+  </strong>
+<p>In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.</p>
+  </li>
+</ul>
+<p>The majority of sampled pages do not contain &ldquo;live&rdquo; status messages.</p>
+<p>The status messages shown, when submitting an exercise, are not marked up appropriately or highlighted to assistive technology.</p>
 
         </div>
       
@@ -669,7 +1078,8 @@ Tested using
           </h1>
           <h2 id="20-june-2020">20 June 2020</h2>
 <ul>
-<li>Update all WCAG links to point to WCAG 2.1</li>
+<li>Update all WCAG links to point to WCAG 2.1.</li>
+<li>Publish summary of WCAG-AA results.</li>
 </ul>
 <h2 id="25-june-2020">25 June 2020</h2>
 <ul>
@@ -720,6 +1130,22 @@ Tested using
   <use xlink:href="#w3c"></use>
   </svg>
   2.5.3 Label in Name</a> (level A):
+  </strong>
+  </li>
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#error-identification">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.3.1 Error Identification</a> (level A):
+  </strong>
+  </li>
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  3.3.2 Labels or Instructions</a> (level A):
   </strong>
   </li>
 </ul>
@@ -799,6 +1225,14 @@ Tested using
             <h2 id="requirements">Requirements</h2>
 <p>One key requirement is that names, roles and values can be determined programmatically. The roles are most often deduced from HTML elements (so, for example, a <code>&lt;button&gt;</code> tag can safely be assumed to be a &ldquo;button&rdquo;).</p>
 <ul class="wcag ">
+  <li>
+  <strong><a href="https://www.w3.org/TR/WCAG21/#name-role-value">
+  <svg class="wcag-icon" viewBox="0 0 127.09899 67.763" aria-hidden="true" focusable="false">
+  <use xlink:href="#w3c"></use>
+  </svg>
+  4.1.2 Name, Role, Value</a> (level A):
+  </strong>
+  </li>
 </ul>
 <p>In several places, A+ used buttons and links in a different way to the expectation.</p>
 <p>Users typically expect that clicking a link takes the user to another page, and clicking a button performs an action.</p>

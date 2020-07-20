@@ -14,8 +14,7 @@ This includes some views created by [mooc-grader](https://github.com/apluslms/mo
 
 ## Next Steps
 
-At this time, the audit concerns the requirements of WCAG-A. A summary of compliance can be found on the {{% pattern "WCAG-A Summary" %}} page.
+At this time, the audit concerns the requirements of WCAG at levels A and AA. A summary of compliance can be found on the {{% pattern "WCAG-A Summary" %}} and {{% pattern "WCAG-AA Summary" %}} pages.
 
-Some significant, frequently occuring problems are noted alongside some suggestions to address them, and grouped by their severity, under 'Things to Fix'. In due course, GitHub issues for these will be added to the relevant repositories.
+Some significant, frequently occuring problems are noted alongside some suggestions to address them, and grouped by their severity, under 'Things to Fix'. Most contain references to GitHub issues, which is where prioritisation and discussion takes place. 
 
-Once there are plans to fix these, an audit at WCAG-AA will be completed. 

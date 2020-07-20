@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://apluslms.github.io/accessibility-audit/patterns/scope/</guid>
-      <description>Pages The audit has been completed in *June 2020 using the master branch running locally. The following pages have been audited:
+      <description>Pages The audit has been completed in June-July 2020 using the master branch running locally. The following pages have been audited:
  Front page Course archive Log in and you have logged out User profile  Additionally, using the course-template, the following pages have been audited:
  Course index Course content Exercise results Submit an exercise both for exercises that require typed input and for file uploads View a submission  Technology At this stage, the amount of technology used for testing is quite narrow.</description>
     </item>
@@ -32,12 +32,24 @@
     </item>
     
     <item>
+      <title>WCAG-AA Summary</title>
+      <link>https://apluslms.github.io/accessibility-audit/patterns/aa-audit-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apluslms.github.io/accessibility-audit/patterns/aa-audit-summary/</guid>
+      <description>Perceivable Time-based Media    1.2.4 Captions (Live) (level AA):  Captions are provided for all live audio content in synchronized media.
+    1.2.5 Audio Description (Prerecorded) (level AA):  Audio description is provided for all prerecorded video content in synchronized media.
+  The interfaces examined don&amp;rsquo;t use any live media or prerecorded video, so there is nothing to require captions or audio description.
+Adaptable    1.</description>
+    </item>
+    
+    <item>
       <title>What&#39;s New?</title>
       <link>https://apluslms.github.io/accessibility-audit/patterns/changelog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://apluslms.github.io/accessibility-audit/patterns/changelog/</guid>
-      <description>20 June 2020  Update all WCAG links to point to WCAG 2.1  25 June 2020  Initial publication following an audit at WCAG-A level.  </description>
+      <description>20 June 2020  Update all WCAG links to point to WCAG 2.1. Publish summary of WCAG-AA results.  25 June 2020  Initial publication following an audit at WCAG-A level.  </description>
     </item>
     
   </channel>

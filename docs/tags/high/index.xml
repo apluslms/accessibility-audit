@@ -28,7 +28,7 @@
       
       <guid>https://apluslms.github.io/accessibility-audit/patterns/fixable-a/links-and-buttons/</guid>
       <description>Requirements One key requirement is that names, roles and values can be determined programmatically. The roles are most often deduced from HTML elements (so, for example, a &amp;lt;button&amp;gt; tag can safely be assumed to be a &amp;ldquo;button&amp;rdquo;).
- In several places, A+ used buttons and links in a different way to the expectation.
+   4.1.2 Name, Role, Value (level A):    In several places, A+ used buttons and links in a different way to the expectation.
 Users typically expect that clicking a link takes the user to another page, and clicking a button performs an action.</description>
     </item>
     

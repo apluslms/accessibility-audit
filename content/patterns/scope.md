@@ -4,7 +4,7 @@ title = "Audit Scope"
 
 ## Pages
 
-The audit has been completed in **June 2020* using the `master` branch running locally. The following pages have been audited:
+The audit has been completed in **June-July 2020** using the `master` branch running locally. The following pages have been audited:
 
 - **Front page**
 - **Course archive**
@@ -31,6 +31,4 @@ Many tests do not require assistive technology, these have been completed using 
 
 ## Target level
 
-So far, these tests relate to all guidelines of **WCAG-A**.
-
-It is the plan to extend this to include all guidelines within **WCAG-AA** during Summer 2020.
+So far, these tests relate to all guidelines of **WCAG-A** and **WCAG-AA**.
