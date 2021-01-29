@@ -25,7 +25,7 @@ Ensuring that the items appear in the DOM in a logical order  will help accompli
 
 This list is likely not exhaustive:
 
-### Course archive
+### (Fixed in A+ v1.8) Course archive
 
 The **course archive** uses `h3` tags to represent courses. These are wrapped in `li`s. 
 
@@ -37,7 +37,7 @@ The formatting could be maintained without using a heading tag, and since the co
 
 There is a [GitHub issue (596)](https://github.com/apluslms/a-plus/issues/596)
 
-### Profile
+### (Fixed in A+ v1.8) Profile
 
 The sequence of elements in the profile page does not match reading order. Looking at the page visually, the user might follow from the avatar, to the blue "info" block on the right which explains how to change it. 
 

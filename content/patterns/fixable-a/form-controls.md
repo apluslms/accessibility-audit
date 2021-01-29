@@ -28,13 +28,13 @@ In short, any controls present must:
 
 The following are examples of the issues found.
 
-### Local user login
+### (Fixed in A+ v1.8) Local user login
 
 No visual indication is given if login fails. A clear error message and styling to match the error states of other text fields in the application would make this more understandable. 
 
 [GitHub issue (591)](https://github.com/apluslms/a-plus/issues/591)
 
-### Submit a text-based exercise
+### (Fixed in A+ v1.8) Submit a text-based exercise
 
 The form control used to type the input to an exercise is associated with a `label`, although the `label` only contains the question number, and no clear indication of what should be entered into the field.
 
