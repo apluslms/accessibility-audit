@@ -11,9 +11,6 @@
     "update": "node lib/update.js",
     "a11y": "(npm list pa11y-ci || npm install -g pa11y-ci) && pa11y-ci --sitemap http://localhost:1313/sitemap.xml --config lib/.pa11yci"
   },
-  "pre-commit": [
-    "build"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThePacielloGroup/cupper.git"
@@ -23,9 +20,5 @@
   "bugs": {
     "url": "https://github.com/ThePacielloGroup/cupper/issues"
   },
-  "homepage": "https://github.com/ThePacielloGroup/cupper#readme",
-  "devDependencies": {
-    "pre-commit": "^1.2.2",
-    "sw-precache": "^5.2.0"
-  }
+  "homepage": "https://github.com/ThePacielloGroup/cupper#readme"
 }
